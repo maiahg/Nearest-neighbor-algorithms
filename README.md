@@ -5,7 +5,7 @@ The kNN search could be very time consuming if the dataset is very large. In som
 
 This repo includes kNN, ANN algorithms implementation as well as a small dataset for testing since a big dataset is too large to be uploaded.
 
-## k Nearest Neighbors
+## k Nearest Neighbours
 The kNN algorithm was implemented with three versions, each containing different implementations for the priority queue. The three versions are as follows:
 - PriorityQueue1: implemented with a simple array, the max element being the last element in the array.
 - PriorityQueue2: implemented with an array representing a heap, the max element is at the root of the heap tree. Each insertion will trigger an upheap operation. Each removal will trigger a downheap operation.
@@ -23,7 +23,7 @@ For example, the command line would look like this: <br>
 
     java KNN 1 10 siftsmall_base.fvecs siftsmall_query.fvecs
 
-## Approximate Nearest Neighbors
+## Approximate Nearest Neighbours
 The ANN was implemented using graph traversal. Graph-based ANN (GANN) builds a graph from the vectors in the dataset in which connected nodes are vectors relatively close to each other. When a query is received, GANN will traverse the graph until it finds a good candidate nearest neighbour. There are two steps:
 - Building the graph: pre-processing step that is executed only once using all the vectors in the dataset.
 - Graph traversal: finds an approximate nearest neighbours from a query point

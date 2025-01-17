@@ -1,4 +1,4 @@
-# Nearest-neighbor-algorithms
+# Nearest neighbor algorithms
 Given a large number of vectors(the dataset) in a high-dimensional space and given a query vector, the objective is to find the vectorthat is the closest to the query vector, usually using a Euclidean distance. This vector is called the nearest neighbor, in the general formulation, the objective is to find the k nearest neighbors (kNN).
 
 The kNN search could be very time consuming if the dataset is very large. In some application, it's not necessary to obtain the exact nearest neighbors, an approximate solution could be suffice. In this case, we can use an Approximate Nearest Neighbors (ANN).
